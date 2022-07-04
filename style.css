@@ -1,24 +1,32 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.orange-color{
+
+.orange-color {
     color: orange;
 }
-section{
+
+section {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 8%;
 
 }
-.half-width img{
+
+.half-width img {
     width: 80%;
+    padding-top: 5%;
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
     padding: 10px 35px;
     background-color: orange;
@@ -26,4 +34,10 @@ section{
     color: white;
     background-image: linear-gradient(orange, tomato);
     font-weight: 700;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
 }
